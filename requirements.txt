@@ -2,5 +2,4 @@ pandas
 numpy
 flask
 flask_cors
-pickle
 sklearn
