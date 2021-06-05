@@ -7,7 +7,7 @@ import numpy as np
 app=Flask(__name__)
 cors=CORS(app)
 file_path= 'Self_LinearRegressionModel.pkl'
-model=pickle.load(open(file_path,'wb'))
+model=pickle.load(open(file_path,'rb'))
 File_path = '_All_Cities_Cleaned.csv'
 house=pd.read_csv(File_path)
 
