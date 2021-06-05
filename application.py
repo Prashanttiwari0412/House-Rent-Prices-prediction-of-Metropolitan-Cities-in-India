@@ -6,9 +6,9 @@ import numpy as np
 
 app=Flask(__name__)
 cors=CORS(app)
-file_path= r'Self_LinearRegressionModel.pkl'
+file_path= 'Self_LinearRegressionModel.pkl'
 model=pickle.load(open(file_path,'rb'))
-File_path = r'_All_Cities_Cleaned.csv'
+File_path = '_All_Cities_Cleaned.csv'
 house=pd.read_csv(File_path)
 
 @app.route('/',methods=['GET','POST'])
