@@ -1,8 +1,6 @@
 pandas
 numpy
 flask
-gevent==1.2.1
-Werkzeug==0.12.1 
-Flask==0.12.1
+pip==21.1.2
 flask_cors
 sklearn
