@@ -129,7 +129,7 @@ body {
   <body>
 <div class="container register" >
                 <div class="row" >
-                    <div class = "col-md-13 register-left">
+                    <div class = "col-md-33 register-left">
                         <h1>Author: Prashant Tiwari</h1>
                         <p style="text-align: left;">Worried about accommodation and rental prices? Or want to let a house? Select your category as Builder/Agent/Owner, Fill other details and Boom! You've predicted rental price of your house.</p>
                     </div>
@@ -181,6 +181,7 @@ body {
                             {% endfor %}
                         </select>
                                         </div>
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label><b>Select the Furniture Type:</b> </label><br>
@@ -205,11 +206,12 @@ body {
                         <input type="text" class="form-control" id="area" name="area"
                                placeholder="Eg: (1450 sq.ft) ">
                                         </div>
-                                       <div class="form-group">
-                                            <button  class="btn btn-primary form-control" onclick="send_data()">Predict Price</button>
-                                        </div>
                                     </form>
                                     <br>
+                                   
+                                    <div class="form-group">
+                                        <button  class="btn btn-primary form-control" onclick="send_data()">Predict Price</button>
+                                    </div>
                                     <div class="row">
                                         <div class="col-10" >
                                             <h4><span id="prediction"></span></h4>
