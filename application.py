@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-app=Flask(__name__,template_folder='template')
+app=Flask(__name__,template_folder='templates')
 cors=CORS(app)
 file_path= 'Self_LinearRegressionModel.pkl'
 model=pickle.load(open(file_path,'rb'))
