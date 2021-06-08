@@ -7,3 +7,4 @@ I always wondered that how come our complete focus is to improve the accuracy of
 * Location
 * Area
 * Furnished Status
+## Check live project at : https://house-rental-price-prediction.herokuapp.com/
